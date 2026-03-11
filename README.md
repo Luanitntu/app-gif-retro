@@ -34,20 +34,15 @@ A feature-rich GIF viewer application built with Python, Pygame, and PIL. Displa
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/GifViewer.git
+git clone https://github.com/Luanitntu/GifViewer.git
 cd GifViewer
 ```
 
-2. **Install dependencies**
-```bash
-pip install pygame pillow
+2. **Copy folder into sdCard with path:
+```
+sdCard/MUOS/ROM/PORT
 ```
 
-3. **Run the application**
-```bash
-cd GifViewerData
-python main.py
-```
 
 ## 📖 Usage
 
@@ -322,11 +317,6 @@ See **LOGGING_QUICK_REFERENCE.md** for quick troubleshooting commands.
 
 - **README.md** - This file, project overview and quick start
 - **SETUP_COMPLETE.md** - Complete setup and optimization guide
-- **OPTIMIZATION_NOTES.md** - Code optimization and architecture details
-- **BACKGROUND_SETUP.md** - Detailed background feature guide
-- **LOGGING_GUIDE.md** - Comprehensive logging system guide
-- **QUICK_REFERENCE.md** - Controls and configuration reference
-- **LOGGING_QUICK_REFERENCE.md** - Quick logging commands
 
 ## 💻 System Requirements
 
@@ -334,18 +324,15 @@ See **LOGGING_QUICK_REFERENCE.md** for quick troubleshooting commands.
 - Python 3.7+
 - 512MB RAM
 - Display: 640x480 or higher
-- Pygame-compatible OS (Windows, Linux, macOS)
+- Pygame-compatible OS (Windows, Linux)
 
 ### Recommended
 - Python 3.9+
-- 2GB+ RAM
-- Full HD display (1920x1080)
+- 1GB+ RAM
 - Modern joystick controller
 
-### Supported Platforms
-- ✅ Windows (7+)
+### Supported Platform
 - ✅ Linux
-- ✅ macOS
 - ✅ MUOS (handheld gaming OS)
 
 ## 📦 Dependencies
@@ -424,11 +411,8 @@ Found a bug? Please create an issue with:
 - [ ] image filters and effects
 - [ ] Support for JPG, BMP, WebP formats
 - [ ] Background preview in selector
-- [ ] Custom color theme management
 - [ ] Slideshow mode
-- [ ] Zoom and pan controls
 - [ ] Settings UI menu
-- [ ] Plugin system
 - [ ] Network file support
 - [ ] Thumbnail previews
 
@@ -462,39 +446,7 @@ For help or questions:
 - Initial release
 - Basic GIF viewing
 - File browser
-- Joystick and keyboard support
-
-## 🎯 Project Stats
-
-- **Lines of Code**: ~700 (main.py) + ~200 (modules)
-- **Classes**: 5 (GifPlayer, InputHandler, AppState, UIRenderer, LoggerSetup)
-- **Functions**: 30+ utility functions
-- **Documentation**: 8 comprehensive guides
-- **Test Coverage**: Manual testing on multiple platforms
-
----
-
-## Quick Command Reference
-
-```bash
-# Run application
-cd GifViewerData && python main.py
-
-# View logs
-python log_viewer.py
-
-# Search logs (Windows PowerShell)
-Select-String "ERROR" GifViewerData\logs\app.log
-
-# Check dependencies
-pip list | grep pygame
-
-# Install requirements
-pip install -r requirements.txt
-
-# Check Python version
-python --version
-```
+- Joystick and keyboard suppor
 
 ---
 

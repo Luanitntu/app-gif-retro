@@ -46,12 +46,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Documentation
 - 📖 README.md - Comprehensive project overview
 - 📖 SETUP_COMPLETE.md - Complete setup guide
-- 📖 OPTIMIZATION_NOTES.md - Detailed optimization info
-- 📖 CODE_OPTIMIZATION_REPORT.md - Before/after metrics
-- 📖 BACKGROUND_SETUP.md - Background feature guide
-- 📖 LOGGING_GUIDE.md - Complete logging documentation
-- 📖 LOGGING_IMPLEMENTATION.md - Technical logging details
-- 📖 LOGGING_QUICK_REFERENCE.md - Quick logging commands
 - 📖 QUICK_REFERENCE.md - Controls and tips
 - 📖 CONTRIBUTING.md - Contribution guidelines
 - 📖 LICENSE - MIT License
